@@ -1,0 +1,61 @@
+// Theme colors
+$blue: #005D9B;
+$indigo: #6610f2;
+$bluedark: #1CA6DD;
+
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #d9534f;
+$orange: #fd7e14;
+$yellow: #f0ad4e;
+$green: #4BBF73;
+$teal: #20c997;
+$cyan: #1F9BCF;
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$primary:       $blue;
+$secondary:     $bluedark;
+$tertiary:      darken($blue, 10%);
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          #354052;
+
+// Body
+$body-bg: #f0f7fc;
+
+// Sidebar general
+$sidebar-bg: #0f68c8; //262F3D - #3093FE
+
+$sidebar-brand-icon-color: lighten($primary, 5%);
+
+// Sidebar link
+$sidebar-link-color: rgba($white, 0.75);
+$sidebar-link-hover-color: $sidebar-link-color;
+$sidebar-link-active-color: $sidebar-link-color;
+$sidebar-link-hover-bg: #fff;
+// Sidebar child link
+$sidebar-link-child-color: #fff; //$gray-500
+$sidebar-link-child-hover-color:  rgba($white, 0.75);
+$sidebar-link-child-active-color: $sidebar-link-child-hover-color;
+
+// Cards
+$card-border-radius: 0;
+
+// Hamburger
+$hamburger-width-top: 24px;
+$hamburger-width-middle: 24px;
+$hamburger-width-bottom: 24px;

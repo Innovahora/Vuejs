@@ -1,0 +1,80 @@
+.sidebar-brand{
+  .text-caption{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.75em;
+    padding: 0.25em;
+  }
+}
+
+.list-group{
+  &.min{
+    font-size: 0.85em;
+    .list-group-item{
+      padding: 0.5rem 1rem;
+
+      .actions{
+        width: 22px;
+      }
+    }
+  }
+  .list-group-item{
+    .list-group-item-head{
+      min-width: 250px;
+    }
+    .actions{
+      display: flex;
+      width: 44px;
+      justify-content: space-between;
+    }
+  }
+}
+
+
+.custom-control-label.custom-control-label-not::before, .custom-control-label.custom-control-label-not::after{
+   left: 0;
+}
+
+.custom-control-label.custom-control-label-text{
+  vertical-align: middle;
+}
+
+.custom-control-label.custom-control-label-text::before, .custom-control-label.custom-control-label-text::after{
+  left: -1.5rem;
+}
+
+.form-group-block{
+  padding: 1em 1em;
+  background: #f3f3f3;
+}
+
+.tab-odd .nav-tabs .nav-link.active {
+  background: #f5f9fc;
+  border-bottom-color: #f5f9fc;
+}
+.tab-odd .tab-content {
+  background: #f5f9fc;
+}
+
+.table{
+  td{
+    .custom-control{
+      margin-bottom: 0;
+    }
+  }
+}
+
+.list-informes{
+  dl{
+    dt{
+      font-weight: normal;
+    }
+  }
+}
+
+.text-range{
+  display: block;
+  margin: 0.5em 0 0 0;
+  font-size: 1.5em;
+  text-align: center;
+}
